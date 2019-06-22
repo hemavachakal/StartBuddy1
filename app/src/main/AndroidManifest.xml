@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.startbuddy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PartsofMindfulnes">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Aboutus" />
+        <activity android:name=".Diag" />
+        <activity android:name=".Stomach" />
+        <activity android:name=".Balloon" />
+        <activity android:name=".Body" />
+        <activity android:name=".Ribcage" />
+        <activity android:name=".Retreat" />
+        <activity android:name=".Grounding" />
+        <activity android:name=".Cleansing" />
+        <activity android:name=".Mountain" />
+        <activity android:name=".Comparing" />
+        <activity android:name=".Letting" />
+        <activity android:name=".Forgiveness" />
+        <activity android:name=".Eating" />
+        <activity android:name=".Craving" />
+        <activity android:name=".Smiling" />
+        <activity android:name=".Listening" />
+        <activity android:name=".Worrying" />
+        <activity android:name=".Being" />
+        <activity android:name=".Doing" />
+        <activity android:name=".Knowing">
+
+        </activity>
+    </application>
+
+</manifest>
